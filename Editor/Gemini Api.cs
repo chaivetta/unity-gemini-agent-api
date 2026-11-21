@@ -30,7 +30,7 @@ public class GeminiWindow : EditorWindow
 
     private void OnEnable()
     {
-        apiKey = EditorPrefs.GetString("Gemini_ApiKey", "AIzaSyDWi1jotyrdXGu0XqAbO7NDF29vBnZ-uvw");
+        apiKey = EditorPrefs.GetString("Gemini_ApiKey", "");
         modelName = EditorPrefs.GetString("Gemini_ModelName", "gemini-2.5-flash");
         projectGDD = EditorPrefs.GetString("Gemini_ProjectGDD", "");
 
